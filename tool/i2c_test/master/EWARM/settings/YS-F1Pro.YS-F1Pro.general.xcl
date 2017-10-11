@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armstlink2.dll" 
+
+"E:\code\~local_test\YSF1_HAL-071. 开发板通过I2C通信\1、I2C主机\EWARM\YS-F1Pro\Exe\YS-F1Pro.out" 
+
+--plugin "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "D:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\ST\FlashSTM32F10xxE.board" 
+
+
+
+
