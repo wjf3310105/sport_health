@@ -7,10 +7,12 @@ set FolderName=!file!
 echo !FolderName!
 for /f "delims=" %%i in ('dir !FolderName! /a-d /b /s') do (
 if not %%~xi==.eww (
+if not %%~xi==.icf (
 if not %%~xi==.xcl (
 if not %%~xi==.ewp (
 if not %%~xi==.ewd (
 del /s /a /q "%%~si"
+)
 )
 )
 )

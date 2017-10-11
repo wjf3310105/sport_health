@@ -12,20 +12,25 @@
       <name>General</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>24</version>
+        <version>22</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
           <name>ExePath</name>
-          <state>YS-F1Pro/Exe</state>
+          <state>YS-F1Pro\Exe</state>
         </option>
         <option>
           <name>ObjPath</name>
-          <state>YS-F1Pro/Obj</state>
+          <state>YS-F1Pro\Obj</state>
         </option>
         <option>
           <name>ListPath</name>
-          <state>YS-F1Pro/List</state>
+          <state>YS-F1Pro\List</state>
+        </option>
+        <option>
+          <name>Variant</name>
+          <version>20</version>
+          <state>38</state>
         </option>
         <option>
           <name>GEndianMode</name>
@@ -34,23 +39,28 @@
         <option>
           <name>Input variant</name>
           <version>3</version>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>Input description</name>
-          <state>Full formatting.</state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>Output variant</name>
           <version>2</version>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>Output description</name>
-          <state>Full formatting.</state>
+          <state>Automatic choice of formatter.</state>
         </option>
         <option>
           <name>GOutputBinary</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>FPU</name>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -73,11 +83,11 @@
         </option>
         <option>
           <name>OGProductVersion</name>
-          <state>4.41A</state>
+          <state>6.70.1.5793</state>
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>7.40.7.9864</state>
+          <state>6.70.1.5793</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -119,15 +129,20 @@
         <option>
           <name>GeneralMisraRules04</name>
           <version>0</version>
-          <state>011111111111111110111111111111111111111111111010110100111111111111110111111111111111111111111111111111110111111011111111111111111111111111111</state>
+          <state>111101110010111111111000110111111111111111111111111110010111101111010101111111111111111111111111101111111011111001111011111011111111111111111</state>
         </option>
         <option>
           <name>RTConfigPath2</name>
           <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Full.h</state>
         </option>
         <option>
+          <name>GFPUCoreSlave</name>
+          <version>20</version>
+          <state>38</state>
+        </option>
+        <option>
           <name>GBECoreSlave</name>
-          <version>22</version>
+          <version>20</version>
           <state>38</state>
         </option>
         <option>
@@ -142,47 +157,15 @@
           <name>GRuntimeLibThreads</name>
           <state>0</state>
         </option>
-        <option>
-          <name>CoreVariant</name>
-          <version>22</version>
-          <state>38</state>
-        </option>
-        <option>
-          <name>GFPUDeviceSlave</name>
-          <state>STM32F103xE	ST STM32F103xE</state>
-        </option>
-        <option>
-          <name>FPU2</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
-        <option>
-          <name>NrRegs</name>
-          <version>0</version>
-          <state>0</state>
-        </option>
-        <option>
-          <name>NEON</name>
-          <state>0</state>
-        </option>
-        <option>
-          <name>GFPUCoreSlave2</name>
-          <version>22</version>
-          <state>38</state>
-        </option>
       </data>
     </settings>
     <settings>
       <name>ICCARM</name>
       <archiveVersion>2</archiveVersion>
       <data>
-        <version>31</version>
+        <version>29</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
-        <option>
-          <name>CCOptimizationNoSizeConstraints</name>
-          <state>0</state>
-        </option>
         <option>
           <name>CCDefines</name>
           <state>USE_HAL_DRIVER</state>
@@ -247,7 +230,7 @@
         <option>
           <name>CCAllowList</name>
           <version>1</version>
-          <state>00000000</state>
+          <state>0000000</state>
         </option>
         <option>
           <name>CCDebugInfo</name>
@@ -275,7 +258,7 @@
         </option>
         <option>
           <name>CCSignedPlainChar</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCRequirePrototypes</name>
@@ -340,16 +323,16 @@
         </option>
         <option>
           <name>CCOptLevel</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CCOptStrategy</name>
           <version>0</version>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CCOptLevelSlave</name>
-          <state>0</state>
+          <state>1</state>
         </option>
         <option>
           <name>CompilerMisraRules98</name>
@@ -403,7 +386,7 @@
         </option>
         <option>
           <name>IccCppInlineSemantics</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>IccCmsis</name>
@@ -414,17 +397,12 @@
           <state>0</state>
         </option>
         <option>
-          <name>CCNoLiteralPool</name>
+          <name>CCOptimizationNoSizeConstraints</name>
           <state>0</state>
         </option>
         <option>
-          <name>CCOptStrategySlave</name>
-          <version>0</version>
-          <state>1</state>
-        </option>
-        <option>
-          <name>CCGuardCalls</name>
-          <state>1</state>
+          <name>CCNoLiteralPool</name>
+          <state>0</state>
         </option>
       </data>
     </settings>
@@ -603,7 +581,7 @@
         <debug>1</debug>
         <option>
           <name>OOCOutputFormat</name>
-          <version>3</version>
+          <version>2</version>
           <state>1</state>
         </option>
         <option>
@@ -630,7 +608,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
